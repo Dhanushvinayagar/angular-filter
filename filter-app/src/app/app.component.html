@@ -1,0 +1,18 @@
+<h2 class="header">Angular Filter Application</h2>
+
+<div  class="full-container">  
+      <nav class="navbar">
+        <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
+          <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home" ></mat-icon>
+        </a>
+        <a routerLink="/movies" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="videocam"></mat-icon>
+      </a>
+      <a routerLink="/settings" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="settings"></mat-icon>
+        </a>
+      </nav>
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
+</div>

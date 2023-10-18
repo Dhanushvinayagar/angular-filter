@@ -1,0 +1,38 @@
+.settings{
+    display: flex;
+}
+mat-icon{
+    color: white;
+    padding-bottom:2px ;
+}
+
+.mat-select{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+.form-inside{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    padding-left: 5%;
+    width: 100%;
+}
+
+.filter-data{
+    margin-top: 10%;
+}
+
+
+.icon{
+    color: black;
+    margin-top: 3%;
+    cursor: pointer;
+    border: 0.02px solid rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+}
+.icon:hover{
+    color: red;
+}
