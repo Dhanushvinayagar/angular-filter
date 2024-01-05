@@ -31,15 +31,15 @@ export class DataService {
   }
 
   getData():Observable<any>{
-    const data = this.http.get('https://run.mocky.io/v3/f6799f1a-c180-44a2-87de-9b1a0319e325')
-    // const data = this.http.get("http://localhost:3000/movies")
+    // const data = this.http.get('https://run.mocky.io/v3/f6799f1a-c180-44a2-87de-9b1a0319e325')
+    const data = this.http.get("http://localhost:3000/movies")
     return data;   
   }
 
   getFilterSelect():Observable<any>{
     
-      const data = this.http.get('https://run.mocky.io/v3/f6799f1a-c180-44a2-87de-9b1a0319e325')
-      // const data = this.http.get("http://localhost:3000/movies")
+      // const data = this.http.get('https://run.mocky.io/v3/f6799f1a-c180-44a2-87de-9b1a0319e325')
+      const data = this.http.get("http://localhost:3000/movies")
       return data;      
   }
 }
